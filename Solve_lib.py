@@ -75,4 +75,6 @@ def Calc(mu_F,Sigma_F,mu_B,Sigma_B,C,sigma_C,alpha_0, maxCount, minLike):
         F = vals[max_index]['F']
         B = vals[max_index]['B']
         alpha = vals[max_index]['alpha']
+        ################
+        ################
     return F, B, alpha
